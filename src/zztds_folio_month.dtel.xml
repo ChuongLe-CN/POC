@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZTDS_FOLIO_MONTH</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>NUMC2</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Month the fuel folio was produced by TDS</DDTEXT>
+    <REPTEXT>TDS Folio Month</REPTEXT>
+    <SCRTEXT_S>Folio Mth</SCRTEXT_S>
+    <SCRTEXT_M>Folio Month</SCRTEXT_M>
+    <SCRTEXT_L>TDS Folio Month</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Mois du folio</DDTEXT>
+     <REPTEXT>Mois du folio</REPTEXT>
+     <SCRTEXT_S>Mois folio</SCRTEXT_S>
+     <SCRTEXT_M>Mois du folio</SCRTEXT_M>
+     <SCRTEXT_L>Mois du folio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

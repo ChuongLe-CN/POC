@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZTDS_LD_START_TM_CHAR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR06</DOMNAME>
+    <HEADLEN>28</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>Load start time</DDTEXT>
+    <REPTEXT>Load start time</REPTEXT>
+    <SCRTEXT_S>LDstarttme</SCRTEXT_S>
+    <SCRTEXT_M>Load start time</SCRTEXT_M>
+    <SCRTEXT_L>Load start time</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Heure de début du chargement</DDTEXT>
+     <REPTEXT>Heure de début du chargement</REPTEXT>
+     <SCRTEXT_S>LDstarttme</SCRTEXT_S>
+     <SCRTEXT_M>Heure de début du ch</SCRTEXT_M>
+     <SCRTEXT_L>Heure de début du chargement</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

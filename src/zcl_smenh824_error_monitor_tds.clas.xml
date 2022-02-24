@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>TDS Error Monitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>Q00</KEY>
+     <ENTRY>Warning</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q01</KEY>
+     <ENTRY>Fuel PO could be created with wrong price. Validate if contract price is available for transaction date.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q02</KEY>
+     <ENTRY>Stock will be updated. This will have an impact in the physical inventory adjustment.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q03</KEY>
+     <ENTRY>Continue</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>Q04</KEY>
+     <ENTRY>Cancel</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>Q00</KEY>
+       <ENTRY>Avertissement</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>Q01</KEY>
+       <ENTRY>BA Carburant pourrait être créé avec prix erroné. Valider si le prix du contrat est disponible pour la date de transaction.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>Q02</KEY>
+       <ENTRY>L&apos;inventaire sera mis à jour. Cela aura un impact sur l&apos;ajustement de l&apos;inventaire physique.</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>Q03</KEY>
+       <ENTRY>Continue</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>Q04</KEY>
+       <ENTRY>Interrompre</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>C_END_OF_DAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>C_VENDOR_BOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>I_REPROCESS_SEQ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reprocessing sequence steps</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>SMENH819</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reprocess using SM-ENH-819</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>SMENH820</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reprocess using SM-ENH-820</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>SMENH821</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reprocess using SM-ENH-821</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>SMENH822</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reprocess using SM-ENH-822</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>V_END_OF_DAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Include End of Day</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>V_REPROCESS_STEPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Count of reprocessing steps</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR_TDS</CLSNAME>
+     <CMPNAME>V_SKIP_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Skip open period check</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZME_SMENH817_CREATE_PO_GR_FUEL</NAME>
+    <SUBC>1</SUBC>
+    <APPL>M</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Fuel Event</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Extra Charge</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Program completed successfully!</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>SM-ENH-817: Create PO and GR for Pure DTL Events</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EXTRA</KEY>
+     <ENTRY>Only Extra charges</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FUELEX</KEY>
+     <ENTRY>Only related Extra charges</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_AEDAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_AENAME</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CANIND</KEY>
+     <ENTRY>Cancel Indicator</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CHRGID</KEY>
+     <ENTRY>Extra Charge Identifier</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CHRGVR</KEY>
+     <ENTRY>Extra Charge Version</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_DELDAT</KEY>
+     <ENTRY>Delivery Date</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FUELID</KEY>
+     <ENTRY>Fuel Identifier</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FUELVR</KEY>
+     <ENTRY>Fuel Version</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LIFNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>14</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LOCOID</KEY>
+     <ENTRY>Locomotive ID</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LOCOIN</KEY>
+     <ENTRY>Locomotive Init.</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATKL</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MODCOD</KEY>
+     <ENTRY>Modified Code</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MTCHCD</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_RECSTA</KEY>
+     <ENTRY>Record Status</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_STATUS</KEY>
+     <ENTRY>Status</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TICKET</KEY>
+     <ENTRY>Ticket # (BOL)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRSDAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>38</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_WERKS</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>13</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Événements DTL</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Charges Additionnelles</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Programme exécuté avec succès!</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Création de Bons de Commande et Réceptions pour les Événements DTL</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_EXTRA</KEY>
+       <ENTRY>Uniquement Charges</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FUELEX</KEY>
+       <ENTRY>Charges Incluses</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_CANIND</KEY>
+       <ENTRY>Indicateur d&apos;annulation</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_CHRGID</KEY>
+       <ENTRY>Charge additionnelle ID</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_CHRGVR</KEY>
+       <ENTRY>Version</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_DELDAT</KEY>
+       <ENTRY>Date de livraison</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_FUELID</KEY>
+       <ENTRY>Numéro d&apos;événement</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_FUELVR</KEY>
+       <ENTRY>Version</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LOCOID</KEY>
+       <ENTRY>Numéro de Locomotive</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LOCOIN</KEY>
+       <ENTRY>Initiales Locomotive</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_MODCOD</KEY>
+       <ENTRY>Modifacteur</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_RECSTA</KEY>
+       <ENTRY>Indicateur d&apos;activation</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_STATUS</KEY>
+       <ENTRY>Statut</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TICKET</KEY>
+       <ENTRY>BOL numéro de ticket</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_AEDAT</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_AENAME</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_MATKL</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_WERKS</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>13</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

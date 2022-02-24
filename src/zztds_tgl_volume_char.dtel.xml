@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZTDS_TGL_VOLUME_CHAR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR15</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Transportation gain/Loss volume calculated by TDS</DDTEXT>
+    <REPTEXT>TDS Transportation Gain/Loss</REPTEXT>
+    <SCRTEXT_S>TDS Tgl</SCRTEXT_S>
+    <SCRTEXT_M>TDS Trsp Gain/Loss</SCRTEXT_M>
+    <SCRTEXT_L>TDS Transportation Gain/Loss</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

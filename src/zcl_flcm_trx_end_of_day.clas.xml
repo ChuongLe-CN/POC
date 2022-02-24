@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Transaction ID 505 - Diversion Receipt</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>CALCUL_DIFF_INVENTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calculate the difference between SAP and TDS Inventory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>IS_GVMT_CRITERIA_MET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the goods movement criteria met to create a goods mvmt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_EOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_IN_YARD_INV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>In Yard inventory stock transfer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PARTIAL_RECEIPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Partial receipt (Diversion)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PHY_GAIN_OR_LOSS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process step failure when transaction error is detected</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PHY_INV_ADJ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process step failure when transaction error is detected</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PROGNAME_819</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PROGNAME_820</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_PROGNAME_821</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_RECON_RECEIPT_DIV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reconciled Receipt (includes diversion indicator)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_RECON_RECEIPT_SITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reconciled Receipt (site to site transfers)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_SUCCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_ZPARM_NM1</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP: Name of Variant Variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MC_ZZFLCM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MD_EXECUTION_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Current Date of Application Server</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MT_MARAMARC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for ZMM_FLCM_MARAMARC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MT_MARM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TRX_END_OF_DAY</CLSNAME>
+     <CMPNAME>MT_ZMM_FLCM_PARMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for zmm_flcm_parms</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

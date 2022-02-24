@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZM_6HEMAIL</OBJCT>
+    <FIEL1>ACTVT</FIEL1>
+    <OCLSS>MM_B</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZM_6HEMAIL</OBJECT>
+    <TTEXT>SM-RPT-6HE: Authorization for Email</TTEXT>
+   </TOBJT>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZM_6HEMAIL</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZM_6HEMAIL</BROBJ>
+     <ACTVT>A9</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

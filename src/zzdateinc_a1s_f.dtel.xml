@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZDATEINC_A1S_F</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZZDATEINC_A1S_F</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Back date Increment from</DDTEXT>
+    <REPTEXT>Back Date Increment</REPTEXT>
+    <SCRTEXT_S>Bk Dte Inc</SCRTEXT_S>
+    <SCRTEXT_M>Back Date Inc</SCRTEXT_M>
+    <SCRTEXT_L>Back Date Increment</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nbr jour préc du</DDTEXT>
+     <REPTEXT>Nbr jour préc</REPTEXT>
+     <SCRTEXT_S>Nbr préc</SCRTEXT_S>
+     <SCRTEXT_M>Nbr jour préc</SCRTEXT_M>
+     <SCRTEXT_L>Nbr jour préc</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

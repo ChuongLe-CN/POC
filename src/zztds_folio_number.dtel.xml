@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZTDS_FOLIO_NUMBER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>NUMC3</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Identifies the folio produced within the year and month</DDTEXT>
+    <REPTEXT>TDS Folio Number</REPTEXT>
+    <SCRTEXT_S>Folio Nbr</SCRTEXT_S>
+    <SCRTEXT_M>Folio Number</SCRTEXT_M>
+    <SCRTEXT_L>TDS Folio Number</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>No. Folio</DDTEXT>
+     <REPTEXT>No. Folio</REPTEXT>
+     <SCRTEXT_S>No. Folio</SCRTEXT_S>
+     <SCRTEXT_M>No. Folio</SCRTEXT_M>
+     <SCRTEXT_L>No. Folio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

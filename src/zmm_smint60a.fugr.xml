@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SM-INT-60A: FLCM Interface from TDS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_SMINT60AF01</SOBJ_NAME>
+    <SOBJ_NAME>LZMM_SMINT60ATOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_SMINT60A</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BAL_DBDEL_ZSM</FUNCNAME>
+     <SHORT_TEXT>User exit called from App. Log Delete</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_T_LOGS_TO_DELETE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BALHDR_T</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_IN_UPDATE_TASK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_T_LOGS_TO_DELETE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Log header data table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_IN_UPDATE_TASK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X=True, -=False, Space=Unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMM_FLCM_TDS_SEND</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>RFC function to send TDS data to FLCM</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TDS_DATA_TABLE</PARAMETER>
+       <TYP>ZMM_FLCM_TDS_INTERFACE_TABLE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TDS_DATA_TABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>FLCM: TDS interface data from message broker - Table Type</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMM_FLCM_TDS_SEND_ASYNC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Internally called FM to acheive asynchronous call from WMB</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TDS_DATA_TABLE</PARAMETER>
+       <TYP>ZMM_FLCM_TDS_INTERFACE_TABLE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TDS_DATA_TABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>FLCM: TDS interface data from message broker - Table Type</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

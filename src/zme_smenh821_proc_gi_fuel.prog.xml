@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZME_SMENH821_PROC_GI_FUEL</NAME>
+    <SUBC>1</SUBC>
+    <APPL>M</APPL>
+    <RSTAT>K</RSTAT>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Storage location for plant</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>GL Account for plant</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Cost Center</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Business area for plant</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Storage location for receiving plant for plant</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>not defined</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Process Goods Issues for Fuel Events in SAP</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CANREB</KEY>
+     <ENTRY>Cancel / Rebill</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CHANGE</KEY>
+     <ENTRY>Changed by</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DIVERS</KEY>
+     <ENTRY>Diversion Ind.</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ERCLAS</KEY>
+     <ENTRY>Error Message Class</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ERRCOD</KEY>
+     <ENTRY>Error Message Code</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PRCDAT</KEY>
+     <ENTRY>Override Processing Date</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_STATUS</KEY>
+     <ENTRY>Status</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ACCNT</KEY>
+     <ENTRY>Account</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CANREB</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>27</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CARIER</KEY>
+     <ENTRY>Carrier</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_CUSTMR</KEY>
+     <ENTRY>Customer</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_DOCNUM</KEY>
+     <ENTRY>Document number (BOL)</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FOLMON</KEY>
+     <ENTRY>Folio Month</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FOLNUM</KEY>
+     <ENTRY>Folio Number</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_FOLYER</KEY>
+     <ENTRY>Folio Year</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LOCOID</KEY>
+     <ENTRY>Loco id</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LSTDAT</KEY>
+     <ENTRY>Last Change Date</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LSTTIM</KEY>
+     <ENTRY>Last Change Time</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_PRODID</KEY>
+     <ENTRY>Product id</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_STATUS</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>26</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TERMID</KEY>
+     <ENTRY>Terminal ID</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRNDAT</KEY>
+     <ENTRY>Transaction date</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRNREF</KEY>
+     <ENTRY>Transaction Reference Number</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRNSEQ</KEY>
+     <ENTRY>Transaction Sequence</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRNSID</KEY>
+     <ENTRY>Transaction id</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_TRNTIM</KEY>
+     <ENTRY>Transaction time</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Magasin n&apos;est pas défini pour la division</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Compte GL n&apos;est pas défini pour la division</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Centre de coûts n&apos;est pas defini pour la division</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Domaine d&apos;activité n&apos;est pas définie pour la division</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Magasin n&apos;est pas définie pour la division réceptrice</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Process Goods Issues for Fuel Events in SAP</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CANREB</KEY>
+       <ENTRY>Annulation / Re-charge</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CHANGE</KEY>
+       <ENTRY>Changé Par</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DIVERS</KEY>
+       <ENTRY>Diversion Ind.</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_ERCLAS</KEY>
+       <ENTRY>Classe du message d&apos;erreur</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_ERRCOD</KEY>
+       <ENTRY>Code du message d&apos;erreur</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_STATUS</KEY>
+       <ENTRY>Statut</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_ACCNT</KEY>
+       <ENTRY>Compte</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_CARIER</KEY>
+       <ENTRY>Transporteur</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_CUSTMR</KEY>
+       <ENTRY>Client</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_DOCNUM</KEY>
+       <ENTRY>Numéro du document (BOL)</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_FOLMON</KEY>
+       <ENTRY>Mois du Folio</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_FOLNUM</KEY>
+       <ENTRY>Numéro de Folio</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_FOLYER</KEY>
+       <ENTRY>Année du Folio</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LOCOID</KEY>
+       <ENTRY>Loco id</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LSTDAT</KEY>
+       <ENTRY>Date du dernier changement</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LSTTIM</KEY>
+       <ENTRY>Heure du dernier changement</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_PRODID</KEY>
+       <ENTRY>Produit id</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TERMID</KEY>
+       <ENTRY>Terminal ID</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TRNDAT</KEY>
+       <ENTRY>Date de transaction</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TRNREF</KEY>
+       <ENTRY>Numéro de transaction</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TRNSEQ</KEY>
+       <ENTRY>Séquence de transaction</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TRNSID</KEY>
+       <ENTRY>Transaction id</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_TRNTIM</KEY>
+       <ENTRY>Heure de transaction</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZME_SMENH821_PROC_GI_FUEL</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZME_SMENH821_PROC_GI_FUEL</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>All Dispensing/Issue of Fuel to locomotive captured and sent to SAP will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be used to create goods issues in order to adjust fuel inventory.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Also, outbound step of site to site transfers captured in TDS and sent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to SAP will be used to create goods issue for source (original) plant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This enhancement is covering only dispensing/issue of Fueling events</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>from CN storage facilities. Pure DTL fueling events are not part of this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancement; they are covered by enhancement SM-ENH-817.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZM_9QE_UPD</OBJCT>
+    <FIEL1>ZRUNMODE</FIEL1>
+    <OCLSS>MM_B</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZM_9QE_UPD</OBJECT>
+    <TTEXT>SM-ENH-9QE: Mass ERS Revaluation (Update/Test mode)</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZM_9QE_UPD</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMR_SMRPT6HE_CONTRACT_PRICE</NAME>
+    <SUBC>1</SUBC>
+    <RSTAT>K</RSTAT>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>BK1</KEY>
+     <ENTRY>Select options</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BK2</KEY>
+     <ENTRY>Validity Period</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BK3</KEY>
+     <ENTRY>Report Options</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>C00</KEY>
+     <ENTRY>Send Email?</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>C01</KEY>
+     <ENTRY>Are you sure that you want to send the contract price report to the vendor contact</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>C02</KEY>
+     <ENTRY>Yes</ENTRY>
+     <LENGTH>3</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>C03</KEY>
+     <ENTRY>No</ENTRY>
+     <LENGTH>3</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E00</KEY>
+     <ENTRY>Contract Price Report</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>CN</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E02</KEY>
+     <ENTRY>Please find attached the price list for your CN contracts.</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E03</KEY>
+     <ENTRY>Please feel free to contact us if you have any questions.</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E04</KEY>
+     <ENTRY>Thank you,</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E05</KEY>
+     <ENTRY>CN - Supply Management</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E06</KEY>
+     <ENTRY>P.O. Box 8103</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E07</KEY>
+     <ENTRY>Montreal, Quebec</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E08</KEY>
+     <ENTRY>H3C 3N3</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E12</KEY>
+     <ENTRY>Veuillez trouver ci-joint la liste des prix pour les contrats du CN</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E13</KEY>
+     <ENTRY>N&apos;hésitez pas à nous contacter si vous avez des questions.</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E14</KEY>
+     <ENTRY>Merci,</ENTRY>
+     <LENGTH>6</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E15</KEY>
+     <ENTRY>CN - Gestion des approvisionnements</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E16</KEY>
+     <ENTRY>CP 8103</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E17</KEY>
+     <ENTRY>Montréal, Québec</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>KN1</KEY>
+     <ENTRY>DTL</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>KN2</KEY>
+     <ENTRY>Storage</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SL1</KEY>
+     <ENTRY>Last days pricing</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SL2</KEY>
+     <ENTRY>Include current date</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SL3</KEY>
+     <ENTRY>Date Range</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SL4</KEY>
+     <ENTRY>Return address</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SL5</KEY>
+     <ENTRY>(if other than current user)</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TE1</KEY>
+     <ENTRY>** Unknown **</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>SM-RPT-6HE: Contract Price Report</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ALVVAR</KEY>
+     <ENTRY>ALV Variant</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EMAIL</KEY>
+     <ENTRY>Send by email</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SENDER</KEY>
+     <ENTRY>Sender email</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_EBELN</KEY>
+     <ENTRY>Contract</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_EBELP</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>12</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_KSCHL</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LIFNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>14</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATKL</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_WERKS</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>13</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BK1</KEY>
+       <ENTRY>Options de sélection</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BK2</KEY>
+       <ENTRY>Période de validité</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BK3</KEY>
+       <ENTRY>Option du rapport</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>C00</KEY>
+       <ENTRY>Envoyer par courriel</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>C01</KEY>
+       <ENTRY>Êtes-vous certain d&apos;envoyer le rapport de prix des contracts au contact des fournisseurs</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>C02</KEY>
+       <ENTRY>Oui</ENTRY>
+       <LENGTH>3</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>C03</KEY>
+       <ENTRY>Non</ENTRY>
+       <LENGTH>3</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>E00</KEY>
+       <ENTRY>Rapport de prix des contrats</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SL1</KEY>
+       <ENTRY>Prix derniers jours</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SL2</KEY>
+       <ENTRY>Inclure date du jour</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SL3</KEY>
+       <ENTRY>Plage de date</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SL4</KEY>
+       <ENTRY>Adresse de retour</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SL5</KEY>
+       <ENTRY>(si utilisateur différent)</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TE1</KEY>
+       <ENTRY>** Inconnu **</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>SM-RPT-6HE: Rapport de prix des contrats</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_ALVVAR</KEY>
+       <ENTRY>ALV variant</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_EMAIL</KEY>
+       <ENTRY>Envoyer par courriel</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SENDER</KEY>
+       <ENTRY>Adresse de retour</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_EBELN</KEY>
+       <ENTRY>Contrat</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_EBELP</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>12</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_KSCHL</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_LIFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>14</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_MATKL</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>S_WERKS</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>13</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

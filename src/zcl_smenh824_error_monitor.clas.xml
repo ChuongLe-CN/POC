@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base class for TDS/DTL error monitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>No message details available</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>Message details for:</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>records displayed</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T04</KEY>
+     <ENTRY>1 record displayed</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>T03</KEY>
+       <ENTRY>lignes affichées</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T04</KEY>
+       <ENTRY>1 record affiché</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>I_JOBLOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Job Log data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>I_LOG_HANDLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>O_ALV_DOCK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Docking Control Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>O_BASE_TABLE_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>O_DATA_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generic data table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>O_LINE_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>O_TABLE_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_ALV_DYNNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Current Screen Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_DOCK_VISIBLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_SBAL_CONTROL_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Control Display Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_SBAL_PROFILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Output Format Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_SBAL_PROFILE_MULTI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Output Format Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_TABNAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SMENH824_ERROR_MONITOR</CLSNAME>
+     <CMPNAME>V_WITH_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Include message text in ALV</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Process TDS GR Confirmation (incl TGL)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+     <CMPNAME>MC_TRX_DIVERSION_RECEIPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+     <CMPNAME>MC_TRX_INYARD_TRANSFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+     <CMPNAME>MC_TRX_SITE2SITE_TRANSFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+     <CMPNAME>MC_TRX_VENDOR_BOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TDS type of transaction. Ex: 502 - Vendor BOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_TDS_GR_CONFIRM</CLSNAME>
+     <CMPNAME>PROCESS_TRANSACTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process given transaction records</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

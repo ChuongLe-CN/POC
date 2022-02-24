@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>FLCM Class for Purchase Order</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Purchase Order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Purchase Order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_ERROR_TYPES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Message types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_MSGID_FLCM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_MSGNO_062</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_MSGNO_063</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_MSGTY_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>MC_SUB_STATUS_NONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process step failure when transaction error is detected</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POHEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Header Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POHEADERX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Header Data (Change Parameter)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POITEMX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item Data (Change Parameter)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POSCHEDULE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Schedule</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>POSCHEDULEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Schedule (Change Parameter)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FLCM_PO</CLSNAME>
+     <CMPNAME>PURCHASEORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Document Number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

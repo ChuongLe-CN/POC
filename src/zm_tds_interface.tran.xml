@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZM_TDS_INTERFACE</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZM_TDS_INTERFACE</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZM_TDS_INTERFACE</TCODE>
+    <TTEXT>Display log for SM-INT-60A</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZM_TDS_INTERFACE</TCODE>
+    <PARAM>/*OS_APPLICATION CLASS=ZCL_SMINT60A_ZMM_FLCM_TDS;METHOD=LOG_TDS_DISPLAY;UPDATE_MODE=U;</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>
